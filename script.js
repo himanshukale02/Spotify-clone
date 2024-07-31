@@ -8,7 +8,7 @@ let songItems = Array.from(document.getElementsByClassName('list'));
 
 
 let songs = [
-    {songName: 'Animals - Martin Garrix', filePath:'songs/1.mp3', coverPath:'https://i.vgy.me/Zx5Eym.png'},
+    {songName: 'Animals - Martin Garrix', filePath:'https://www.youtube.com/watch?v=IPYTxAHeR_o', coverPath:'https://i.vgy.me/Zx5Eym.png'},
     {songName: 'Let Me Down Slowly - Alec Benjamin', filePath:'songs/2.mp3', coverPath:'https://i.vgy.me/enlbsk.jpg'},
     {songName: 'Better - Ananya Birla', filePath:'songs/3.mp3', coverPath:'https://i.vgy.me/gtHLLp.png'},
     {songName: 'How Long - Charlie Puth', filePath:'songs/4.mp3', coverPath:'https://i.vgy.me/6RBUBJ.png'},
