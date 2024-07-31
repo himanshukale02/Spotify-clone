@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/208b516566.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h3><img src="like.svg" alt="">Liked Songs </h3>
+            <div>
+                <div class="songItem">
+                    <div class="list item1">
+                        <img class="cover"  alt="" srcset="">
+                        <span class="songName"></span>
+                        <img class="playLogo" src="play.svg" alt="play" id="songPlay" >
+                    </div>
+                    <div class="list item2">
+                        <img class="cover"  alt="" srcset="">
+                        <span class="songName"></span>
+                        <img class="playLogo" src="play.svg" alt="play" id="songPlay" >
+                    </div>
+                    <div class="list item3">
+                        <img class="cover" alt="" srcset="">
+                        <span class="songName"></span>
+                        <img class="playLogo" src="play.svg" alt="play" id="songPlay">
+                    </div>
+                    <div class="list item4">
+                        <img class="cover" alt="" srcset="">
+                        <span class="songName"></span>
+                        <img class="playLogo" src="play.svg" alt="play" id="songPlay" >
+                    </div>
+                    <div class="list item5">
+                        <img class="cover" alt="" srcset="">
+                        <span class="songName"></span>
+                        <img class="playLogo" src="play.svg" alt="play" id="songPlay" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner">
+            <h1></h1>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="player">
+            <img class="blogo blogo-backward" src="backward.svg" alt="backward">
+            <img class="blogo blogo-play"  alt="play" id="masterPlay">
+            <img class="blogo blogo-forward" src="forward.svg" alt="forward">
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="gif" width="40px" id="gif" style="opacity: 0;"> <span>Animals - Martin Garrix</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
